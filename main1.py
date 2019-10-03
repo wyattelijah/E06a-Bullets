@@ -96,11 +96,7 @@ class Window(arcade.Window):
                 if e.hp == 0:
                     e.kill()
                     self.score += 100
-            # check for collision
-            # for every bullet that hits, decrease the hp and then see if it dies
-            # increase the score
-            # e.kill() will remove the enemy sprite from the game
-            # the pass statement is a placeholder. Remove line 81 when you add your code
+            
             
 
     def on_draw(self):
